@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/images/logo.svg";
 import image from "../assets/images/bg-pattern-intro-desktop.svg"
+// import Footer from "../components/Footer"
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
           </div>
         </section>
       </main>
+      {/* <Footer/> */}
     </>
   );
 };
