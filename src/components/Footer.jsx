@@ -10,15 +10,15 @@ const Footer = () => {
 
   return (
     <>
-      <div className="bg-[#25252d]" style={{ borderTopRightRadius: "5rem" }}>
-        <div className="xl:flex sm:flex  sm:justify-center  md:justify-between p-5 mx-auto container  w-full rounded-tr-3xl text-white text-center ">
+      <div className="bg-veryDarkgrayBlue" style={{ borderTopRightRadius: "5rem" }}>
+        <div className="xl:flex sm:flex   sm:justify-between p-7 mx-auto container  w-full rounded-tr-3xl text-greyishBlue text-center  ">
           <div className="mb-5 ">
             {/* <img src={logo} alt="" /> */}
-            <h1 className="font-bold text-4xl mb-5">Blogr</h1>
+            <h1 className="font-bold font-ubuntu text-4xl mb-5">Blogr</h1>
           </div>
           <div className="flex flex-col mb-7 text-center ">
-            <h2 className="text-2xl font-bold mb-3 font-overpass">Product</h2>
-            <ul className=" ">
+            <h2 className="text-2xl font-bold mb-3 font-ubuntu-700">Product</h2>
+            <ul className="font-light font-ubuntu ">
               <li className="mb-2">
                 <a
                   href=""
@@ -67,8 +67,8 @@ const Footer = () => {
             </ul>
           </div>
           <div className="flex flex-col mb-5  text-center">
-            <h2 className="text-2xl font-bold mb-3 font-overpass">Company</h2>
-            <ul className=" ">
+            <h2 className="text-2xl font-bold mb-3 font-ubuntu">Company</h2>
+            <ul className="font-light font-ubuntu ">
               <li className="mb-2">
                 <a
                   href=""
@@ -108,7 +108,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="flex flex-col mb-5 text-center">
-            <h2 className="text-2xl font-bold mb-3">Connect</h2>
+            <h2 className="text-2xl font-bold mb-3 font-ubuntu">Connect</h2>
             <ul className="">
               <li className="mb-2">
                 <a
