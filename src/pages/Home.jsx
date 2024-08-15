@@ -3,16 +3,17 @@ import logo from "../assets/images/logo.svg";
 import image from "../assets/images/bg-pattern-intro-desktop.svg"
 import Future from "../components/Future";
 import Footer from "../components/Footer";
+import State from "../components/State";
 
 const Home = () => {
   return (
     <>
       <main className=" h-screen ">
-        
-        <section className="container mx-auto px-[7rem] bg-gradient-to-r from-red-400 to-red-600 pt-12 rounded-bl-[5rem] h-[40rem] relative before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url('/src/assets/images/bg-pattern-intro-desktop.svg')] before:bg-cover before:bg-no-repeat before:bg-center before:z-0" style={{backgroundSize:'130rem' }}>
+
+        <section className="container mx-auto px-[7rem] bg-gradient-to-r from-red-400 to-red-600 pt-12 rounded-bl-[5rem] h-[40rem] relative before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url('/src/assets/images/bg-pattern-intro-desktop.svg')] before:bg-cover before:bg-no-repeat before:bg-center before:z-0" style={{ backgroundSize: '130rem' }}>
           <nav className="relative z-10 flex items-center justify-between">
             <div className="flex gap-7 items-center">
-              <img src={logo} alt="logo"  />
+              <img src={logo} alt="logo" />
               <ul className="flex gap-5 text-white">
                 <li>Product</li>
                 <li>Company</li>
@@ -38,8 +39,9 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <Future/>
-        <Footer/>
+        <Future />
+        <State />
+        <Footer />
       </main>
       {/* <Footer/> */}
     </>
